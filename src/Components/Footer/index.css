@@ -1,0 +1,109 @@
+.footer-container {
+    background-color: gray;
+    height: auto;
+    padding: 20px;
+    width: 100%;
+    text-align: left;
+}
+
+.footer-card {
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.footer-heading {
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 800;
+    padding-top: 30px;
+    color: #030303;
+}
+
+.footer-text {
+    font-size: 16px;
+    font-family: "Roboto";
+    margin-top: 10px;
+    color: #0c0c0c;
+}
+
+.location-button {
+    height: 42px;
+    width: 124px;
+    color: #ffffff;
+    background-color: rgb(13, 64, 105);
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+@media (max-width: 1200px) {
+    .footer-container {
+        padding: 20px;
+    }
+    .footer-heading {
+        font-size: 18px;
+    }
+    .footer-text {
+        font-size: 14px;
+    }
+    .location-button {
+        height: 40px;
+        width: 110px;
+    }
+}
+
+@media (max-width: 992px) {
+    .footer-container {
+        padding: 15px;
+    }
+    .footer-heading {
+        font-size: 16px;
+    }
+    .footer-text {
+        font-size: 13px;
+    }
+    .location-button {
+        height: 38px;
+        width: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        padding: 10px;
+    }
+    .footer-card {
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .footer-heading {
+        font-size: 14px;
+    }
+    .footer-text {
+        font-size: 12px;
+    }
+    .location-button {
+        height: 36px;
+        width: 90px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-container {
+        padding: 10px;
+    }
+    .footer-card {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .footer-heading {
+        font-size: 12px;
+    }
+    .footer-text {
+        font-size: 11px;
+    }
+    .location-button {
+        height: 35px;
+        width: 80px;
+    }
+}

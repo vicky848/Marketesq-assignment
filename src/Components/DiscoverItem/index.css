@@ -1,0 +1,107 @@
+.list-item {
+    text-align: center;
+    height: 200px;
+    width: 350px;
+    background-color: white;
+    margin: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.image-url {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.review-heading {
+    font-size: 19px;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+.star-icon {
+    font-size: 14px;
+    margin: 4px;
+    color: gold;
+    margin-right: 2px;
+}
+
+.review-text {
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media (max-width: 1200px) {
+    .list-item {
+        width: 320px;
+        height: auto;
+    }
+    .image-url {
+        height: 45px;
+        width: 45px;
+    }
+    .review-heading {
+        font-size: 18px;
+    }
+    .review-text {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 992px) {
+    .list-item {
+        width: 280px;
+        height: auto;
+    }
+    .image-url {
+        height: 40px;
+        width: 40px;
+    }
+    .review-heading {
+        font-size: 16px;
+    }
+    .review-text {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .list-item {
+        width: 100%;
+        height: auto;
+    }
+    .image-url {
+        height: 40px;
+        width: 40px;
+    }
+    .review-heading {
+        font-size: 14px;
+    }
+    .review-text {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 480px) {
+    .list-item {
+        width: 100%;
+        padding: 5px;
+    }
+    .image-url {
+        height: 35px;
+        width: 35px;
+    }
+    .review-heading {
+        font-size: 13px;
+    }
+    .review-text {
+        font-size: 10px;
+    }
+}

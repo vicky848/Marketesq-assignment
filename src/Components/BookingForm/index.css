@@ -1,0 +1,229 @@
+
+.image {
+    height: 300px;
+    width: 390px;
+    margin-left: 240px;
+}
+
+@media (max-width: 992px) {
+    .image {
+        height: 250px;
+        width: 350px;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .image {
+        height: 200px;
+        width: 100%;
+    }
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #e9e4e4;
+    height: 300px;
+    width: 900px;
+}
+
+@media (max-width: 992px) {
+    .card-container {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-container {
+        width: 90%;
+        height: auto;
+    }
+}
+
+
+.booking-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .booking-container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .booking-container {
+        width: 100%;
+    }
+}
+
+
+.booking-heading {
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: 27px;
+    font-family: "Roboto";
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 992px) {
+    .booking-heading {
+        font-size: 24px;
+        text-align: center;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .booking-heading {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .booking-heading {
+        font-size: 18px;
+    }
+}
+
+
+.booking-text {
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .booking-text {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+}
+
+
+.form-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .form-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+.form-main-container {
+    margin-top: 30px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    height: 150px;
+    width: 900px;
+}
+
+@media (max-width: 992px) {
+    .form-main-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .form-main-container {
+        width: 90%;
+        height: auto;
+    }
+}
+
+
+.form-label {
+    font-family: "Roboto";
+    font-weight: 700;
+    margin-left: 100px;
+}
+
+@media (max-width: 768px) {
+    .form-label {
+        margin-left: 20px;
+    }
+}
+
+
+.book-button {
+    height: 38px;
+    width: 122px;
+    background-color: rgb(49, 146, 153);
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "Roboto";
+    border-width: 0px;
+    border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+    .book-button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+
+.button-container {
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+    .button-container {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.room-control {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+    .room-control {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+.room-input {
+    margin: 5px;
+    width: 30px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+
+.room-button {
+    border-radius: 100px;
+    text-align: center;
+    height: 30px;
+    width: 40px;
+    margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+    .room-button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
